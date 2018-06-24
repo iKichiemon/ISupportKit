@@ -1,0 +1,6 @@
+framework module ISupportKit {
+  umbrella header "ISupportKit.h"
+
+  export *
+  module * { export * }
+}
