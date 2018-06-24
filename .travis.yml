@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode9.4
+xcode_sdk: iphonesimulator11.4
+xcode_project: ISupportKit.xcodeproj
+xcode_scheme: ISupportKit 
+script: xcodebuild -project ISupportKit.xcodeproj -scheme ISupportKit -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.4' ONLY_ACTIVE_ARCH=NO -configuration Debug build test
