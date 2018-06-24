@@ -4,3 +4,8 @@ framework module ISupportKit {
   export *
   module * { export * }
 }
+
+module ISupportKit.Swift {
+    header "ISupportKit-Swift.h"
+    requires objc
+}

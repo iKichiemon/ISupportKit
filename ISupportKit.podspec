@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "https://github.com/iKichiemon/ISupportKit.git", :commit => "988cabf9ed838d0afa57e42b5e3e91f29c9cc71e" }
-  s.source       = { :git => "https://github.com/iKichiemon/ISupportKit.git", :tag => "v"+s.version.to_s }
+  s.source       = { :git => "https://github.com/iKichiemon/ISupportKit.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
