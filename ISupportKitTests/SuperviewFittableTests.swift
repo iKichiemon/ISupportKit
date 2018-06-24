@@ -23,7 +23,7 @@ class SuperviewFittableTests: XCTestCase {
         super.tearDown()
     }
     
-    func testCanInstiate() {
+    func testCanFitSuperview() {
         let expect = superviewRect
         
         let childview = UIView(frame: CGRect.init(x: 0, y: 0, width: 10, height: 10))

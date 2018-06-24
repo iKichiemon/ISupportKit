@@ -19,7 +19,7 @@ class AppliableTests: XCTestCase {
         super.tearDown()
     }
     
-    func testCanInstiate() {
+    func testCanApply() {
         var isExecuted = false
         let expect = "expect"
         let actual = "expect".apply { _ in isExecuted = true }

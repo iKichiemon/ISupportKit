@@ -19,7 +19,7 @@ class RunnableTests: XCTestCase {
         super.tearDown()
     }
     
-    func testCanInstiate() {
+    func testCanRun() {
         let expect = "expect_runned"
         let actual = "expect".run { $0 + "_runned"}
         XCTAssertEqual(actual, expect)
