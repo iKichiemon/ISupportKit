@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ISupportKitTests.xctest' tests='11' failures='0'>
+  <testsuite name='ISupportKitTests.AppliableTests' tests='1' failures='0'>
+    <testcase classname='ISupportKitTests.AppliableTests' name='testCanApply' time='0.004'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.ClassNameGetingTests' tests='2' failures='0'>
+    <testcase classname='ISupportKitTests.ClassNameGetingTests' name='testCanGetClassName' time='0.009'/>
+    <testcase classname='ISupportKitTests.ClassNameGetingTests' name='testCanGetInstanceClassName' time='0.002'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.ISupportKitTests' tests='2' failures='0'>
+    <testcase classname='ISupportKitTests.ISupportKitTests' name='testExample' time='0.001'/>
+    <testcase classname='ISupportKitTests.ISupportKitTests' name='testPerformanceExample' time='0.666'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.NSObjectProtocolExtensionTests' tests='1' failures='0'>
+    <testcase classname='ISupportKitTests.NSObjectProtocolExtensionTests' name='testCanDescribeProperties' time='0.008'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.NibInstantiatableTests' tests='2' failures='0'>
+    <testcase classname='ISupportKitTests.NibInstantiatableTests' name='testCanGetNibName' time='0.001'/>
+    <testcase classname='ISupportKitTests.NibInstantiatableTests' name='testCanInstiate' time='0.022'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.RunnableTests' tests='1' failures='0'>
+    <testcase classname='ISupportKitTests.RunnableTests' name='testCanRun' time='0.001'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.SafeDecoderTests' tests='1' failures='0'>
+    <testcase classname='ISupportKitTests.SafeDecoderTests' name='testCanSafeDecode' time='0.008'/>
+  </testsuite>
+  <testsuite name='ISupportKitTests.SuperviewFittableTests' tests='1' failures='0'>
+    <testcase classname='ISupportKitTests.SuperviewFittableTests' name='testCanFitSuperview' time='0.002'/>
+  </testsuite>
+</testsuites>
