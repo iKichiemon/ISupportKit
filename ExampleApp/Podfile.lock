@@ -1,0 +1,16 @@
+PODS:
+  - ISupportKit (1.0.0)
+
+DEPENDENCIES:
+  - ISupportKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ISupportKit
+
+SPEC CHECKSUMS:
+  ISupportKit: ea12cafb8ed6d01f32c32d13fad37a39e5a6f915
+
+PODFILE CHECKSUM: 31fa18fbcec1836815d01fd74d8db943e59dc702
+
+COCOAPODS: 1.5.3
