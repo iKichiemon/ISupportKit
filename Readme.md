@@ -44,4 +44,4 @@ $ carthage update ISupportKit
 
 ## License
 
-[GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
+[MIT](https://github.com/iKichiemon/ISupportKit/blob/master/LICENSE)
