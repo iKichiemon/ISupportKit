@@ -25,8 +25,6 @@ This module requires the following modules/libraries:
 
 ### Cocoapods
 
-Install as usual, see [this](https://drupat.org/documentation/install/modules-themes/modules-7) for further information.
-
 Edit your Podfile and install.
 ```
 target '<Your target name>' do
@@ -52,4 +50,5 @@ $ carthage update ISupportKit
 
 ## License
 
-[MIT](https://github.com/iKichiemon/ISupportKit/blob/master/LICENSE)
+
+This project is licensed under the MIT License - see the [MIT](https://github.com/iKichiemon/ISupportKit/blob/master/LICENSE) file for details
