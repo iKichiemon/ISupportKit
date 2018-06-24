@@ -1,12 +1,9 @@
-Badges
+# ISupportKit
 
 [![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/ISupportKit/badge.png)](https://cocoadocs.org/docsets/ISupportKit)
 [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/ISupportKit/badge.svg)](https://cocoadocs.org/docsets/ISupportKit)
 [![Build Status](https://travis-ci.com/iKichiemon/ISupportKit.svg?branch=master)](https://travis-ci.com/iKichiemon/ISupportKit)
 
-===============
-
-# ISupportKit
 
 ## Introduction
 
