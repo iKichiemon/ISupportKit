@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153E4E7620ED787600F80813 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E4E7520ED787600F80813 /* DesignableView.swift */; };
+		153E4E7820ED78A800F80813 /* DesignableMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E4E7720ED78A800F80813 /* DesignableMapView.swift */; };
+		153E4E7A20ED78E900F80813 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E4E7920ED78E900F80813 /* DesignableImageView.swift */; };
+		153E4E7C20ED78F800F80813 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E4E7B20ED78F800F80813 /* CircleImageView.swift */; };
+		153E4E7E20ED792700F80813 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E4E7D20ED792700F80813 /* DesignableButton.swift */; };
 		3AA8B07420DF3F4400D09EDD /* ISupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8B06A20DF3F4400D09EDD /* ISupportKit.framework */; };
 		3AA8B07920DF3F4400D09EDD /* ISupportKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8B07820DF3F4400D09EDD /* ISupportKitTests.swift */; };
 		3AA8B07B20DF3F4400D09EDD /* ISupportKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA8B06D20DF3F4400D09EDD /* ISupportKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153E4E7520ED787600F80813 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		153E4E7720ED78A800F80813 /* DesignableMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableMapView.swift; sourceTree = "<group>"; };
+		153E4E7920ED78E900F80813 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		153E4E7B20ED78F800F80813 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		153E4E7D20ED792700F80813 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		3AA8B06A20DF3F4400D09EDD /* ISupportKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISupportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA8B06D20DF3F4400D09EDD /* ISupportKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISupportKit.h; sourceTree = "<group>"; };
 		3AA8B06E20DF3F4400D09EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		153E4E7420ED786800F80813 /* designable */ = {
+			isa = PBXGroup;
+			children = (
+				153E4E7520ED787600F80813 /* DesignableView.swift */,
+				153E4E7720ED78A800F80813 /* DesignableMapView.swift */,
+				153E4E7920ED78E900F80813 /* DesignableImageView.swift */,
+				153E4E7B20ED78F800F80813 /* CircleImageView.swift */,
+				153E4E7D20ED792700F80813 /* DesignableButton.swift */,
+			);
+			path = designable;
+			sourceTree = "<group>";
+		};
 		3AA8B06020DF3F4400D09EDD = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,7 @@
 		3AA8B06C20DF3F4400D09EDD /* ISupportKit */ = {
 			isa = PBXGroup;
 			children = (
+				153E4E7420ED786800F80813 /* designable */,
 				3AA8B06D20DF3F4400D09EDD /* ISupportKit.h */,
 				3AA8B06E20DF3F4400D09EDD /* Info.plist */,
 				3AA8B0A220DF436200D09EDD /* ClassNameGeting.swift */,
@@ -256,16 +279,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153E4E7820ED78A800F80813 /* DesignableMapView.swift in Sources */,
 				3AA8B0B720DF901100D09EDD /* Appliable.swift in Sources */,
 				3AA8B0A720DF447900D09EDD /* NibInstantiatable.swift in Sources */,
 				3AA8B0C520DF94B500D09EDD /* NSObjectProtocol+Extension.swift in Sources */,
 				3AA8B0C920DF95DD00D09EDD /* UIColor+Extension.swift in Sources */,
 				3AA8B0A320DF436200D09EDD /* ClassNameGeting.swift in Sources */,
+				153E4E7A20ED78E900F80813 /* DesignableImageView.swift in Sources */,
 				3AA8B0AF20DF8C2300D09EDD /* EmbeddedNibInstantiatable.swift in Sources */,
 				3AA8B0C120DF932100D09EDD /* SafeDecoder.swift in Sources */,
 				3AA8B0BF20DF92C500D09EDD /* TargetExtension.swift in Sources */,
+				153E4E7620ED787600F80813 /* DesignableView.swift in Sources */,
+				153E4E7E20ED792700F80813 /* DesignableButton.swift in Sources */,
 				3AA8B0B520DF8E9C00D09EDD /* UIApplication+Extension.swift in Sources */,
 				3AA8B0B320DF8D2E00D09EDD /* SuperviewFittable.swift in Sources */,
+				153E4E7C20ED78F800F80813 /* CircleImageView.swift in Sources */,
 				3AA8B0B920DF902B00D09EDD /* Runnable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
